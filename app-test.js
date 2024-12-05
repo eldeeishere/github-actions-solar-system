@@ -23,12 +23,14 @@ describe('Planets API Suite', () => {
                     res.body.should.have.property('id').eql(1);
                     res.body.should.have.property('name').eql('Mercury');
                 done();
+                das
               });
         });
 
         it('it should fetch a planet named Venus', (done) => {
             let payload = {
                 id: 2
+                das
             }
           chai.request(server)
               .post('/planet')

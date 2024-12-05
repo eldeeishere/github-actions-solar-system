@@ -12,6 +12,9 @@ ENV MONGO_URI=uriPlaceholder
 ENV MONGO_USERNAME=usernamePlaceholder
 ENV MONGO_PASSWORD=passwordPlaceholder
 ENV MONGO_PASSWORD=passwordPlaceholder
+EXPOSE more_changes
+EXPOSE more_changes
+laska_je_tu
 EXPOSE 3000
 
 CMD [ "npm", "start" ]
